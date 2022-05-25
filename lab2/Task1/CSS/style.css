@@ -1,0 +1,51 @@
+header {
+    font-weight: 30;
+    font-size: 17pt;
+    color: rgb(165, 112, 42);
+    width: fit-content;
+    font-family: Bradley Hand, cursive;
+    font-style: italic;
+}
+
+.MyPicture {
+
+        width: 17%;
+        height: 12em;
+        border-radius: 30%;
+        border: 4px solid;
+        color: #424242; 
+       
+    
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+   
+    font-size: 20pt;
+    font-family: monospace;
+}
+
+
+li::before {
+    content: "* ";
+    color: rgb(165, 112, 42);
+}
+footer {
+    margin-top: 150px;
+    background-color: rgb(194, 194, 194);
+}
+
+.column {
+    position: fixed;
+    right: 8px;
+    bottom: 18px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
