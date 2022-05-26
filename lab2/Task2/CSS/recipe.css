@@ -1,7 +1,18 @@
 html {
     height: 100%;
 }
-
+header a{
+    text-decoration: none
+}
+/* unvisited link */
+header a:link { color: rgb(70, 129, 255); }
+/* visited link */
+header a:visited { color: rgb(70, 181, 255); }
+/* mouse over link */
+header a:hover { color: #FF00FF;
+    text-decoration: underline; }
+/* click on a link */
+header a:active { color: rgb(70, 181, 255); }
 body {
     position: relative;
     padding-bottom: 150px;
