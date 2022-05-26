@@ -21,7 +21,7 @@ h2{
 
 .Pre{
     color: antiquewhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 ul {
     list-style: none;
@@ -108,3 +108,31 @@ footer {
 .mood_section .saddiest {
     background: #CD5C5C;
 }
+a{
+    text-decoration: none
+}
+/* unvisited link */
+a:link { color: rgb(70, 129, 255); }
+/* visited link */
+a:visited { color: rgb(70, 181, 255); }
+/* mouse over link */
+a:hover { color: #FF00FF;
+    text-decoration: underline; }
+/* click on a link */
+a:active { color: rgb(70, 181, 255); }
+ol{
+    display: flex;
+    flex-direction: column-reverse;
+}
+span.firstcharacter {
+  
+    font-family: Georgia;
+    font-size: 1.5em;
+
+  }
+  dt{
+    color: rgb(70, 129, 255);
+  }
+  dd{
+    color: antiquewhite;
+  }

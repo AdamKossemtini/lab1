@@ -49,3 +49,11 @@ footer {
 }
 
 
+/* unvisited link */
+a:link { color: rgb(70, 129, 255); }
+/* visited link */
+a:visited { color: rgb(70, 181, 255);; }
+/* mouse over link */
+a:hover { color: #FF00FF; }
+/* click on a link */
+a:active { color: rgb(70, 181, 255);; }
