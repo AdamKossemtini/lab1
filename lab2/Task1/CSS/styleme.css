@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+}
+h1,h2{
+    color: rgb(70, 129, 255);
+    margin: 10px;
+   
+    
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:  50px;
+    
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  30px;
+    color: rgb(70, 181, 255);
+}
+
+
+.Pre{
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+    list-style: none;
+}
+
+li {
+   
+    font-family: monospace;
+    margin-left: 32px;
+    color:antiquewhite;
+  
+}
+
+li.ul1{
+    margin-left: 0px;
+}
+li.ul1::before {
+    content: "* ";
+    color: antiquewhite;
+   
+}
+footer {
+    margin-top: 150px;
+    background-color: rgb(194, 194, 194);
+}
+
+.column {
+    position: fixed;
+    right: 8px;
+    bottom: 18px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
