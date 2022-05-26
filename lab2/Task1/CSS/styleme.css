@@ -58,3 +58,53 @@ footer {
 }
 
 
+.movies_section ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.mood_section {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.mood_section .mood_images {
+    float: left;
+    width: 100%;
+    display: inline-flex;
+}
+
+.mood_section .mood_images div {
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mood_section .mood_images img {
+    width: 100%;
+    max-width: 700px;
+    height: 315px;
+}
+
+.mood_section .sad div,
+.mood_section .happy div {
+    border: solid 2px black;
+}
+
+.mood_section span {
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.mood_section .happiest {
+    background: #3CB371;
+}
+
+.mood_section .saddiest {
+    background: #CD5C5C;
+}
